@@ -1,221 +1,70 @@
-# greencart
-GreenCart Logistics Project
-# GreenCart Logistics Delivery Simulation & KPI Dashboard
+# Getting Started with Create React App
 
-## 1. Project Overview & Purpose
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-GreenCart Logistics is an eco-friendly urban delivery company. This project implements an internal tool that simulates delivery operations and calculates key performance indicators (KPIs) like profit, efficiency, and delivery punctuality.
-Managers use the tool to experiment with staffing, delivery schedules, and route allocations to optimize business outcomes.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 2. Setup Steps
+### `npm start`
 
-### Prerequisites
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-* Node.js (v16+)
-* npm or yarn
-* MongoDB Atlas account or access to a MongoDB instance
-* Git
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
----
+### `npm test`
 
-## 3. Tech Stack Used
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-* **Backend:** Node.js, Express, MongoDB (Mongoose), JWT, bcrypt, cors
-* **Frontend:** React (Hooks), React Router, Axios, Chart.js, react-chartjs-2
-* **Testing:** Jest, Supertest
-* **Deployment:** Render (Backend), Vercel (Frontend), MongoDB Atlas (Database)
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 4. Setup Instructions
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Backend
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Clone the repo and navigate to `/backend` folder:
+### `npm run eject`
 
-   ```bash
-   git clone <repo-url>
-   cd backend
-   ```
-   Sure! Here’s a **structured template and example content** you can use to create a professional `README.md` fulfilling **PART 4: Documentation Requirements** for your full-stack project.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-# README.md Template for GreenCart Logistics Project
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-````markdown
-# GreenCart Logistics Delivery Simulation & KPI Dashboard
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 1. Project Overview & Purpose
-GreenCart Logistics is an eco-friendly urban delivery company. This project implements an internal tool that simulates delivery operations and calculates key performance indicators (KPIs) like profit, efficiency, and delivery punctuality.  
-Managers use the tool to experiment with staffing, delivery schedules, and route allocations to optimize business outcomes.
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 2. Setup Steps
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Prerequisites
-- Node.js (v16+)
-- npm or yarn
-- MongoDB Atlas account or access to a MongoDB instance
-- Git
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## 3. Tech Stack Used
-- **Backend:** Node.js, Express, MongoDB (Mongoose), JWT, bcrypt, cors
-- **Frontend:** React (Hooks), React Router, Axios, Chart.js, react-chartjs-2
-- **Testing:** Jest, Supertest
-- **Deployment:** Render (Backend), Vercel (Frontend), MongoDB Atlas (Database)
+### Analyzing the Bundle Size
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## 4. Setup Instructions
+### Making a Progressive Web App
 
-### Backend
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-1. Clone the repo and navigate to `/backend` folder:
-   ```bash
-   git clone <repo-url>
-   cd backend
-````
+### Advanced Configuration
 
-2. Install dependencies:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-   ```bash
-   npm install
-   ```
-3. Create a `.env` file with required environment variables (see section 5).
-4. Start the backend server:
+### Deployment
 
-   ```bash
-   npm start
-   ```
-5. The backend will run on `http://localhost:5000`.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### Frontend
+### `npm run build` fails to minify
 
-1. Navigate to `/frontend` folder:
-
-   ```bash
-   cd frontend
-   ```
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-3. Create a `.env` file with environment variables as needed (e.g., API base URL).
-4. Start the React development server:
-
-   ```bash
-   npm start
-   ```
-5. The frontend will run on `http://localhost:3000`.
-
----
-
-## 5. Environment Variables
-
-### Backend `.env`
-
-```
-MONGO_URI=mongodb+srv://greencartUser:greencart123@cluster0.tfguwlm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-JWT_SECRET=supersecret
-PORT=5000
-ADMIN_EMAIL=manager@example.com
-ADMIN_PASSWORD=manager123
-
-```
-
-### Frontend `.env`
-
-```
-REACT_APP_API_URL=http://localhost:5000/api
-```
-
----
-
-## 6. Deployment Instructions
-
-* Backend is deployed on Render: [https://your-backend-url.onrender.com]
-* Frontend is deployed on Vercel: [https://your-frontend-url.vercel.app]
-* MongoDB database hosted on MongoDB Atlas
-* Ensure environment variables are set in deployment dashboards accordingly.
-
----
-
-## 7. API Documentation
-
-You can find the API documentation in the Postman collection here:
-
-###  API Requests & Responses
-
-* **Login**
-
-  `POST /api/login`
-
-  Request Body:
-
-  ```json
-  {
-    "username": "manager1",
-    "password": "password123"
-  }
-  ```
-
-  Response:
-
-  ```json
-  {
-    "token": "eyJhbGciOiJIUzI1NiIsInR..."
-  }
-  ```
-
-* **Run Simulation**
-
-  `POST /api/simulate`
-
-  Request Headers:
-
-  ```
-  Authorization: Bearer <token>
-  ```
-
-  Request Body:
-
-  ```json
-  {
-    "driversAvailable": 5,
-    "routeStartTime": "08:00",
-    "maxHoursPerDriver": 8
-  }
-  ```
-
-  Response:
-
-  ```json
-  {
-    "timestamp": "2025-08-13T06:00:00Z",
-    "inputs": { ... },
-    "results": {
-      "totalProfit": 12000,
-      "efficiencyScore": 95,
-      "onTimeDeliveries": 120,
-      "lateDeliveries": 5,
-      "fuelCost": 3000
-    }
-  }
-  ```
-
----
-
-## Contact
-
-For any questions or issues, please contact:
-Shanmugapriya D— [shanmumoorthy22@gmail.com}(mailto:shanmumoorthy22@gmail.com)
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
