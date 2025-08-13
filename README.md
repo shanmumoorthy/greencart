@@ -140,8 +140,8 @@ REACT_APP_API_URL=http://localhost:5000/api
 
 ## 6. Deployment Instructions
 
-* Backend is deployed on Render: [https://your-backend-url.onrender.com](https://your-backend-url.onrender.com)
-* Frontend is deployed on Vercel: [https://your-frontend-url.vercel.app](https://your-frontend-url.vercel.app)
+* Backend is deployed on Render: [https://your-backend-url.onrender.com]
+* Frontend is deployed on Vercel: [https://your-frontend-url.vercel.app]
 * MongoDB database hosted on MongoDB Atlas
 * Ensure environment variables are set in deployment dashboards accordingly.
 
