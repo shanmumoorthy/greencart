@@ -150,9 +150,8 @@ REACT_APP_API_URL=http://localhost:5000/api
 ## 7. API Documentation
 
 You can find the API documentation in the Postman collection here:
-(https://www.postman.com/your-collection-link)
 
-### Example API Requests & Responses
+###  API Requests & Responses
 
 * **Login**
 
